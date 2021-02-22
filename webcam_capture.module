@@ -1,0 +1,11 @@
+<?php 
+
+  function webcam_capture_theme() {
+    $theme['capture_page'] = [
+      'variables' => ['name' => NULL],
+      'template' => 'capture'
+    ];
+
+    return $theme;
+  }
+

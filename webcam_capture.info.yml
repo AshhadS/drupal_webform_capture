@@ -1,0 +1,6 @@
+name: "Webcam Capture"
+description: "Custom module for capturing Webcam Image"
+package: Custom
+
+type: module
+core: 8.x

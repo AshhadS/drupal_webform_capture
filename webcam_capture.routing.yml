@@ -1,0 +1,7 @@
+webcam_capture.content:
+  path: '/capture'
+  defaults:
+    _controller: '\Drupal\webcam_capture\Controller\WebcamCapture::content'
+    _title: 'Webcam Cature'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,6 @@
+webcam_capture.capture:
+  title: 'Capture'
+  description: 'Page the captures image from webcam and displays it'
+  route_name: webcam_capture.content
+  weight: 100
+  menu_name: main

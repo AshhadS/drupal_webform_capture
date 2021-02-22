@@ -1,0 +1,19 @@
+{{ attach_library('webcam_capture/custom-js') }}
+
+
+<div class="mobile-impl visually-hidden">
+	<input type="file" id="mobileInput" capture="user" accept="image/*">
+	<img id="previewImg" src="" style="width: 200px; display: block;">
+</div>
+
+<div class="contentarea desktop-impl visually-hidden">
+  <div class="camera">
+    <video id="video">Video stream not available.</video>
+    <button id="startbutton">Take photo</button> 
+  </div>
+  <canvas id="canvas">
+  </canvas>
+  <div class="output">
+    <img id="photo" alt="The screen capture will appear in this box."> 
+  </div>
+</div>

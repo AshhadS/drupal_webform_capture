@@ -1,0 +1,8 @@
+custom-js:
+  version: 1.x
+  header: true
+  js:
+    custom-js/webcam_capture.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
